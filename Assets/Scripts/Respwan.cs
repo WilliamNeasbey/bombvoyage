@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Respwan : MonoBehaviour
 {
-    [SerializeField] private GameObject Player;
+    [SerializeField] private Transform player;
     [SerializeField] private Transform respawnPoint;
 
-
-
-
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider test)
     {
-        Player.transform.position = respawnPoint.transform.position;
+
+        {
+            player.transform.position = respawnPoint.transform.position;
+            Physics.SyncTransforms();
+        }
     }
 }
