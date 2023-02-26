@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 10c432ab10ca10b4b98d70c50eaffa31
+  - enabled: 1
+    path: Assets/Scenes/LaunchTheBozo.unity
+    guid: 2435763c08f4ba245929c714a0f82679
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 7eba21892dd1c4c44a7e37e7298af297
   m_configObjects: {}
