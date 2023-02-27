@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - Spawner
   - JotoroPortal
+  - Pin
   layers:
   - Default
   - TransparentFX
