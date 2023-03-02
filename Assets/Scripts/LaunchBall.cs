@@ -44,6 +44,7 @@ public class LaunchBall : MonoBehaviour
         }
         score = (int)(transform.position.x * 100);
         ScoreText.SetText("Score:  " + score);
+        
     }
 
     void Launch()

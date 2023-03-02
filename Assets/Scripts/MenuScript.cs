@@ -11,6 +11,10 @@ public class MenuScript : MonoBehaviour
     public GameObject[] gameObjectsToDisable;
     public GameObject[] gameObjectsToEnable;
 
+    public GameObject ObjectToDisable;
+    public GameObject Plot;
+
+
     public void DisableObjectsOnClick()
     {
         foreach (GameObject gameObjectToDisable in gameObjectsToDisable)
@@ -41,6 +45,26 @@ public class MenuScript : MonoBehaviour
     public void HomeRun()
     {
         SceneManager.LoadScene("LaunchTheBozo");
+    }
+
+    public void LobbyHub()
+    {
+        SceneManager.LoadScene("LobbyHub");
+    }
+
+    public void Dance()
+    {
+        SceneManager.LoadScene("TwitchFollowers");
+    }
+
+    public void explination()
+    {
+        ObjectToDisable.SetActive(false);
+    }
+
+    public void Plotdetail()
+    {
+        Plot.SetActive(true);
     }
 }
 
